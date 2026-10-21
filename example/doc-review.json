@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "state": ".doc-review/state.json",
+  "pairs": [
+    {
+      "id": "intro",
+      "source": "docs/intro.md",
+      "translation": "docs/intro.zh.md"
+    }
+  ]
+}
