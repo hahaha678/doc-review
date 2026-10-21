@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doc-review"
+version = "0.1.0"
+description = "Review source changes against human-maintained Markdown translations"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Doc Review contributors"}]
+
+[project.urls]
+Repository = "https://github.com/hahaha678/doc-review"
+Issues = "https://github.com/hahaha678/doc-review/issues"
+
+[project.scripts]
+doc-review = "doc_review.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
